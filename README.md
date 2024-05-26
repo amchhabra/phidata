@@ -17,6 +17,7 @@ Build AI Assistants with memory, knowledge and tools
 **Problem:** LLMs have limited context and cannot take actions.
 
 **Solution:** Add memory, knowledge and tools.
+
 - **Memory:** Stores **chat history** in a database and enables LLMs to have long-term conversations.
 - **Knowledge:** Stores information in a vector database and provides LLMs with **business context**.
 - **Tools:** Enable LLMs to **take actions** like pulling data from an API, sending emails or querying a database.
@@ -26,7 +27,6 @@ Build AI Assistants with memory, knowledge and tools
 - **Step 1:** Create an `Assistant`
 - **Step 2:** Add Tools (functions), Knowledge (vectordb) and Storage (database)
 - **Step 3:** Serve using Streamlit, FastApi or Django to build your AI application
-
 
 ## Installation
 
@@ -52,7 +52,6 @@ Install libraries, export your `OPENAI_API_KEY` and run the `Assistant`
 pip install openai duckduckgo-search
 
 export OPENAI_API_KEY=sk-xxxx
-
 python assistant.py
 ```
 
